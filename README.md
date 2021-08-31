@@ -22,7 +22,7 @@ if those are intact we can move 2 at the same time (it counts as one step)
 > 
 > > LEFT || RIGHT cost = 6
 
-![CanMoveUp](/images/MoveUp.png) ![CanMoveLeft](/images/MoveLeft.png)
+![CanMoveUp](/images/MoveUp.png) ![Empty](/images/Space.png)![CanMoveLeft](/images/MoveLeft.png)
 
 
 
