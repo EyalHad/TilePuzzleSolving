@@ -13,7 +13,7 @@ public class Ex1 {
      */
     public static void main(String[] args) {
 
-        Input input = new Input("input2.txt");
+        Input input = new Input("input.txt");
         Output output = new Output(input.is_Print(), input.is_Time());
         switch (input.getAlgorithm()) {
 

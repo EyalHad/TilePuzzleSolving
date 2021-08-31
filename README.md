@@ -26,7 +26,7 @@ if those are intact we can move 2 at the same time (it counts as one step)
 
 ### Description of the input and output
 
-**each input file should have these attributes:**
+**[ each input file should have these attributes: ]**
 * First line should include the name of the Algorithm from this list - { BFS, DFID, IDA*, A*, DFBnB }
 * Second line we receive a condition - to print to the Output the time, or not. - { with time, no time }
 * Third line another condition - to print to the console the current state that the algorithm works on, or not. - { with open, no open }
@@ -35,9 +35,20 @@ if those are intact we can move 2 at the same time (it counts as one step)
 * Line below the `Goal state:` and until EOF, the Goal state is being read line by line.
 
 ***Example***
+
 ![inputExample](/images/inputEg.png)
 
-**each output file should have these attributes:**
+**[ each output file should have these attributes: ]**
+- it  depends on the input, but the first 3 lines dealt the same.
+* First line we represent the path to `Goal state` from the `Initial state`.
+* Second line will be the counter of how many states were generated in order to reach the goal.
+* Third line is the cost of the path - when Using BFS or DFID this is irrelevant.
+* Forth line depends on the input - if `with time` then the time will be represented in seconds.
+* if we received `with open` on the input its irrelevant to the output file, it should print to the console.
+
+***Example***
+
+![outputExample](/images/outputEg.png)
 
 
 

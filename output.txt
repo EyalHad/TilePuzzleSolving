@@ -1,3 +1,4 @@
-5D-3R-3U-2&5U-7L-7L-5&6D-4D-3R-2R-2U-4L-4L-6&5U
-Num: 503275
-Cost: 76
+8R-11D-7L-8U
+Num: 21
+Cost: 20
+0.017 seconds
