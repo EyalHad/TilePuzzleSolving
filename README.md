@@ -4,4 +4,6 @@ This program is solving Tile puzzle (the input is design to get any size of puzz
 
 ###Tile Puzzle 
 
-![Goal State](/images/GoalState.png)
+![1,2,3,4,5,6,7,8](/images/GoalState.png)
+
+
