@@ -24,6 +24,21 @@ if those are intact we can move 2 at the same time (it counts as one step)
 
 ![CanMoveUp](/images/MoveUp.png) ![Empty](/images/Space.png)![CanMoveLeft](/images/MoveLeft.png)
 
+### Description of the input and output
+
+**each input file should have these attributes:**
+* First line should include the name of the Algorithm from this list - { BFS, DFID, IDA*, A*, DFBnB }
+* Second line we receive a condition - to print to the Output the time, or not. - { with time, no time }
+* Third line another condition - to print to the console the current state that the algorithm works on, or not. - { with open, no open }
+* Forth line is the size of the matrix that represent our tile puzzle - uxv where u,v natural integers.
+* Until we reach a line that shows `Goal state:` the initial state line by line.
+* Line below the `Goal state:` and until EOF, the Goal state is being read line by line.
+
+***Example***
+![inputExample](/images/inputEg.png)
+
+**each output file should have these attributes:**
+
 
 
 

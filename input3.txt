@@ -1,0 +1,9 @@
+DFBnB
+no time
+no open
+2x3
+1,_,_
+3,2,4
+Goal state:
+1,2,4
+_,3,_

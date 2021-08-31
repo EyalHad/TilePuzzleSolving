@@ -14,8 +14,6 @@ public class HeuristicFunc {
 
         double cost = 7;
         double diff = 0;
-
-        double div = 5;
         if (initialState.get_Empty()[1] != null) {
             if (initialState.get_Parent() == null) {
                 cost = 4.5;
@@ -46,7 +44,7 @@ public class HeuristicFunc {
                 }
             }
 
-        return (diff / div);
+        return (diff / 5);
     }
 
     private Location compareToGoal(String digit, String[][] goalBoard, int rows, int columns) {
